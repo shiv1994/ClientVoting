@@ -14,4 +14,6 @@ public interface ClientVotingInterface extends Remote{
 
 	public boolean canVote() throws RemoteException;
 
+	public boolean votingOpen() throws RemoteException;
+
 }
